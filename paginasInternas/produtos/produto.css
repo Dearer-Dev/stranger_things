@@ -1,6 +1,49 @@
 body {
-    background-image: url(./IMG/fundo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-color: brown;
+    background-image: url(./img/fundo.jpg);
+    height: 1200px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.menu{
+    width:5%;
+    color: white;
+    background-color: darkblue;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.menu img{
+    border-radius: 50%;
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu a{
+    display: none;
+    margin-top: 80px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.menu:hover{
+    width: 10%;
+    transition: transform 1s;
+}
+    
+.menu:hover img{
+    display: none;
+    transition-delay: 3s, 250ms;
+}
+
+.menu:hover a{
+    display: block;
+    
 }
