@@ -47,3 +47,27 @@ body {
     display: block;
     
 }
+
+.Card img {
+    height: 250px;
+    width: 150px;
+}
+
+body .Card {
+    justify-content: center;
+    align-content: space-between;
+}
+
+.Card {
+    width: 200px;
+    height: 400px;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card .textos {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
